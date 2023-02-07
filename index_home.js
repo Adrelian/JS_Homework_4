@@ -15,7 +15,7 @@
 // Задание 2
 
 // const arr = [1, 2, 3, 4, 5, 6, 7]
-// arr.pop(2)
+// arr.splice(3, 2) 
 // console.log(arr)
 
 // Задание 3
@@ -44,16 +44,16 @@
 // // Поиск числа 3
 // for (let index = 0; index < myArray.length; index++) {
 //     if (myArray[index] === 3){
-//         console.log(`3 есть на позиции ${index}`)
+//         console.log(`3 есть на позиции ${index + 1}`)
 //     }
 // }
 
 // Задание 4
 
-for (let i = 0; i < 20; i++) {
-    let line = ''
-    for(let j = 0; j < i; j++) {
-      line += '✖'
-    }
-    console.log(`${line}`)
-  }
+// for (let i = 0; i < 20; i++) {
+//     let symbol = ''
+//     for(let j = 0; j < i; j++) {
+//       symbol += '✖'
+//     }
+//     console.log(`${symbol}`)
+//   }
